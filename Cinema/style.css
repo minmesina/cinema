@@ -1,0 +1,432 @@
+body{
+
+	font-family: Century Gothic;
+	background: url(images/bg.jpg) no-repeat center center fixed; 
+	background-size: cover;
+	margin:0% 0% 0% 0%;
+	
+	}
+
+/*index*/
+.container{
+	width:100%;
+	height:100%;}
+.note{
+	position: absolute;
+	color: white;
+	margin-left: 52%;}
+.logo{
+	position: absolute;
+	max-height:30%;
+	max-width:50%;
+	margin-top:15%;
+	margin-left:4%;
+	height:30%;
+	width:50%;
+}
+.userlabel{
+	color:red;
+	position: absolute;
+	margin-top:1%;
+	margin-left:45%;
+	font-size: 80%;
+}
+#username{
+	width:15%;
+	height:3%;
+	color:red;
+	position: absolute;
+	margin-top:1%;
+	margin-left:51%;
+}
+.passwordlabel{
+	color:red;
+	position: absolute;
+	margin-top:1%;
+	margin-left:66%;
+	font-size: 80%;
+}
+#password{
+	width:15%;
+	height:3%;
+	color:red;
+	position: absolute;
+	margin-top:1%;
+	margin-left:72%;
+}
+.login{
+		position:absolute;
+		text-decoration: none;
+		color: red;
+		background-color: transparent;
+		font-family:Century Gothic;
+		margin-left: 87%;
+		margin-top: 1%;
+		border: 2px outset white;
+		padding: 0% 2% 0% 2%;
+		font-weight: bold;}
+	 
+.login:hover {
+	  color: white;
+	  background-color: transparent;
+	  border: 2px inset white;
+	  }
+#gc{
+	font-size:250%;
+	color:red;
+	position: absolute;
+	margin-top:27%;
+	margin-left:29%;
+	font-weight: bold;
+}
+/*admin_page*/
+h1{
+		position:absolute;
+		color: red;
+		top:15%;
+		margin-left: 5%;}
+.logo1{
+	position:absolute;
+	margin-top:-12%;
+	margin-left:3%;
+	height:10%;
+	width:20%;
+}
+.details{
+			position:absolute;
+			margin-left:20%;
+			margin-top:-26%;
+			
+		}
+		
+form.out{display: inline-block;}
+	#navbar {	
+	
+		position:absolute;
+		right: 30%;
+		margin: 1%;
+		padding: 0%;
+		cursor:pointer;
+		}
+	#navbar li {
+		list-style-type: none;
+		float: left;
+		}
+	#navbar li a {
+		text-decoration: none;
+		display: inline;
+		padding-left: 35%;
+		margin: 3%;
+		color: #fff;
+		}
+	#navbar li a:hover {
+		color: #fff;
+		margin: 0px 5px;}
+	#navbar li label {
+		font-family:Century Gothic;
+		font-weight: bold; 
+		font-size:130%;
+		cursor:pointer;}
+	#navbar li label:hover {
+		color:blue;}
+	#navbar li ul {
+		display: none;  }
+
+
+	#navbar li:hover li, #navbar li.hover li {
+		float: center; }
+	#navbar li:hover li a, #navbar li.hover li a {
+		color: blue;
+		}
+	#navbar li li a:hover {
+		color: blue;
+		font-weight: bold; 
+		display: block;}
+	#navbar input{
+	visibility:hidden;}
+	
+	#navbar input:checked +label{
+		float: center; 
+		color: white;
+		padding: -3% 10% 0% 10%;
+		border-radius: 5px 5px 0px 0px;}
+
+	
+	#edit{
+	  position:absolute;
+	  text-decoration: none;
+	  color: red;
+	  background-color: skyblue;
+	  font-family:Century Gothic;
+	  font-size: 120%;
+	  margin-left: -120%;
+	  margin-top: 0%;
+	  border: 2px outset white;
+	  padding: 0% 2% 0% 2%;
+	  font-weight: bold;}
+	 
+	#edit:hover {
+	  color: blue;
+	  background-color: skyblue;
+	  border: 2px inset white;
+	  }
+	  
+	  
+	#delete{
+		position:absolute;
+		text-decoration: none;
+		color: red;
+		background-color: skyblue;
+		font-family:Century Gothic;
+		font-size: 120%;
+		margin-left: -120%;
+		margin-top: -3%;
+		border: 2px outset white;
+		padding: 0% 2% 0% 2%;
+		font-weight: bold;}
+	 
+	#delete:hover {
+	  color: blue;
+	  background-color: skyblue;
+	  border: 2px inset white;
+	  }
+	  
+	  #change{
+		position:absolute;
+		text-decoration: none;
+		color: red;
+		background-color: skyblue;
+		font-family:Century Gothic;
+		font-size: 120%;
+		margin-left: -120%;
+		margin-top: 7%;
+		border: 2px outset white;
+		padding: 0% 2% 0% 2%;
+		font-weight: bold;}
+	 
+	#change:hover {
+	  color: blue;
+	  background-color: skyblue;
+	  border: 2px inset white;
+	  }
+#addshowing{
+	text-decoration: none;
+	  position:absolute;
+	  color: white;
+	  background-color: transparent;
+	  font-weight: bold;
+	  font-size: 120%;
+	  margin-left: 75%;
+	  margin-top: -4%;
+	  padding: 0% 1% 0% 1%;
+	  border: 2px outset white;}
+	 
+#addshowing:hover {
+	  border: 2px inset white;}	  
+/*add showing*/
+label{
+		color: red;
+		font-size: 120%;
+		margin-left: 30%;}
+.fld{
+		margin-left: 42%;}
+.fldset{
+		margin-left:30%;
+		margin-right:40%;}
+.fldset label{
+		margin-left:2%;
+		}
+.fldset .fld{
+		margin-left:40%;
+		}
+h3{
+		color: red;
+		margin-bottom:3%;
+		margin-left: 40%;}
+		
+#button{
+	  position:absolute;
+	  color: blue;
+	  background-color: transparent;
+	  font-weight: bold;
+	  font-size: 120%;
+	  margin-left: 31%;
+	  margin-top: -2%;
+	  padding: 0% 3% 0% 1%;
+	  border: 2px outset white;}
+	 
+#button:hover {
+	  border: 2px inset white;}
+	 
+#cancel{
+		position:absolute;
+		text-decoration: none;
+		color: blue;
+		background-color: transparent;
+		font-family:Century Gothic;
+		font-size: 120%;
+		margin: -.5% 0% 3% 31%;
+		border: 2px outset white;
+		padding: 0% 1% 0% 1%;
+		font-weight: bold;}
+	 
+#cancel:hover {
+	  border: 2px inset white;
+	  }
+	  
+/*edit form*/
+#button1{
+	  position:absolute;
+	  color: blue;
+	  background-color: transparent;
+	  font-weight: bold;
+	  font-size: 120%;
+	  margin-left: 57%;
+	  margin-top: 1.2%;
+	  padding: 0% 1% 0% 1%;
+	  border: 2px outset white;}
+	 
+#button1:hover {
+	  border: 2px inset white;}
+	 
+#cancel1{
+		position:absolute;
+		text-decoration: none;
+		color: blue;
+		background-color: transparent;
+		font-family:Century Gothic;
+		font-size: 120%;
+		margin: 0% 0% 0% 70%;
+		border: 2px outset white;
+		padding: 0% 1% 0% 1%;
+		font-weight: bold;}
+	 
+#cancel1:hover {
+	  border: 2px inset white;
+	  }
+	  
+/*cs*/
+.logo3{
+	position:absolute;
+	margin-top:-2%;
+	margin-left:3%;
+	height:10%;
+	width:20%;
+}
+	#editcs{
+	  position:absolute;
+	  text-decoration: none;
+	  color: red;
+	  background-color: skyblue;
+	  font-family:Century Gothic;
+	  font-size: 120%;
+		  margin-left: -18%;
+	  margin-top: 26%;
+	  border: 2px outset white;
+	  padding: 0% 2% 0% 2%;
+	  font-weight: bold;}
+	 
+	#editcs:hover {
+	  color: blue;
+	  background-color: skyblue;
+	  border: 2px inset white;
+	  }
+	  
+	  
+	#deletecs{
+		position:absolute;
+		text-decoration: none;
+		color: red;
+		background-color: skyblue;
+		font-family:Century Gothic;
+		font-size: 120%;
+		margin-left: -7%;
+		margin-top: 26%;
+		border: 2px outset white;
+		padding: 0% 2% 0% 2%;
+		font-weight: bold;}
+	 
+	#deletecs:hover {
+	  color: blue;
+	  background-color: skyblue;
+	  border: 2px inset white;
+	  }
+	  
+	.desc{
+	margin-right: 20%;	
+	}  
+	
+	.cont{
+		border: 3px groove white;
+		padding: 4% 2% 8% 5%;
+		margin: 10% 10% 5% 5%;
+	}
+	.contcs{
+		border: 3px groove white;
+		padding: 4% 2% 2% 2%;
+		margin: 10% 10% 0% 5%;
+	}
+	.cont1{
+		border: 3px groove white;
+		padding: 4% 2% 4% 2%;
+		margin: 10% 10% 5% 5%;
+	}
+	.cont3{
+		border: 3px groove white;
+		padding: 4% 2% 9% 5%;
+		margin: 10% 10% 0% 5%;
+	}
+	
+	 #change1{
+		position:absolute;
+		text-decoration: none;
+		color: red;
+		background-color: skyblue;
+		font-family:Century Gothic;
+		font-size: 120%;
+		margin-left: -17%;
+		margin-top: 29%;
+		border: 2px outset white;
+		padding: 0% 2% 0% 2%;
+		font-weight: bold;}
+	 
+	#change1:hover {
+	  color: blue;
+	  background-color: skyblue;
+	  border: 2px inset white;
+	  }
+	 #cs_title{
+		 width:63%;
+	 }
+	 
+	 #button11{
+	  position:absolute;
+	  color: blue;
+	  background-color: transparent;
+	  font-weight: bold;
+	  font-size: 120%;
+	  margin-left: 38%;
+	  margin-top: 2.2%;
+	  padding: 0% 1% 0% 1%;
+	  border: 2px outset white;}
+	 
+#button11:hover {
+	  border: 2px inset white;}
+	 
+#cancel11{
+		position:absolute;
+		text-decoration: none;
+		color: blue;
+		background-color: transparent;
+		font-family:Century Gothic;
+		font-size: 120%;
+		margin: 1% 0% 0% 50%;
+		border: 2px outset white;
+		padding: 0% 1% 0% 1%;
+		font-weight: bold;}
+	 
+#cancel11:hover {
+	  border: 2px inset white;
+	  }
+	  
+	  
